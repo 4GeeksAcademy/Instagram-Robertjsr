@@ -1,0 +1,40 @@
+h1{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+body{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.post{
+    background-color: white;
+    width: 600px;
+}
+.post-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-bottom: none;
+
+}
+img{
+    width: 100%;
+}
+.post-footer{
+    padding: 0px 10px;
+}
+span {
+    float: right;
+    margin-right: 2%;
+    color: grey;
+    margin-top: -40px;
+}
+div{
+    border-radius: 1%;
+}
